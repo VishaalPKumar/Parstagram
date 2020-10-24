@@ -31,7 +31,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uS5-Xp-64X">
                                 <rect key="frame" x="50" y="299.5" width="314" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" textContentType="username"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FF-xf-XnM">
                                 <rect key="frame" x="50" y="358.5" width="73.5" height="20.5"/>
@@ -42,7 +42,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MdT-HK-Kb7">
                                 <rect key="frame" x="50" y="394" width="314" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5nh-h6-Jgp">
                                 <rect key="frame" x="50" y="468" width="314" height="70"/>
